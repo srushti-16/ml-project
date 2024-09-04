@@ -15,7 +15,7 @@ def test():
     
     # Test model
     score = model.score(X_test, y_test)
-    print(f"Model test score: {score}")
+    print(f"Model test score1: {score}")
 
 if __name__ == "__main__":
     test()
