@@ -14,7 +14,7 @@ def train():
     # Train model
     model = LogisticRegression()
     model.fit(X_train, y_train)
-    print("hello test")
+    print("hello user1")
     
     # Save model
     joblib.dump(model, 'model.joblib')
